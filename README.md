@@ -19,7 +19,7 @@ wait until all stuff get done
 ```  
 1. Golang v1.10.3  
 2. Glide Package Manager  
-3. MongoDB v4.2.0  
+3. MongoDB v3.6
 ```  
   
 ## Installation guide  
