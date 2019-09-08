@@ -1,0 +1,22 @@
+package: go-mongo
+import:
+- package: github.com/spf13/cobra
+  version: v0.0.1
+  subpackages:
+    - cobra
+- package: go.mongodb.org/mongo-driver/mongo
+  version: 1.1.1
+- package: github.com/gorilla/mux
+  version: v1.6.0
+- package: github.com/smartystreets/goconvey
+  version: 1.6.3
+  subpackages:
+    - convey
+- package: github.com/spf13/viper
+  version: v1.0.0
+- package: github.com/sirupsen/logrus
+  version: v1.0.4
+- package: github.com/go-ozzo/ozzo-validation
+  version: 44af65fe9adfdf78a5ba44f41f5d1fd6a9c4920e
+  subpackages:
+    - '...'

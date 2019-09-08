@@ -1,0 +1,22 @@
+app:
+  name: "GoMongo"
+  command: "go-mongo"
+  port: 8787
+  read_timeout: 10 # in second
+  write_timeout: 5 # in second
+
+database:
+  mongo:
+    host: mongo-db
+    port: 27017
+    database_name: gomongo
+    username: "gomongo"
+    password: "gomongo"
+    timeout: 5
+
+log:
+  path: "./logs/" # log directory location
+  format_output: json # json|text
+  level: 0 # 0= every think logging, 1=  debug level , 2=warning level, 3= error only
+  type: "print" # file|print
+  rotate: static # daily|static, default daily

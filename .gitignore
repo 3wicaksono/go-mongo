@@ -1,0 +1,6 @@
+*~
+.DS_Store
+.idea
+glide.lock
+go-mongo
+vendor
